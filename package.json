@@ -1,0 +1,29 @@
+{
+  "name": "neuronBooster",
+  "version": "1.0.0",
+  "description": "Assessment tool to improve your coding skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WDI-HK-7/neuronBooster.git"
+  },
+  "keywords": [
+    "wdi",
+    "ga",
+    "assessment",
+    "coding",
+    "awesomeness"
+  ],
+  "author": "f3r, harrychenca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WDI-HK-7/neuronBooster/issues"
+  },
+  "homepage": "https://github.com/WDI-HK-7/neuronBooster",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
