@@ -1,0 +1,23 @@
+{
+  "name": "neuronBooster",
+  "version": "1.0.0",
+  "homepage": "https://github.com/WDI-HK-7/neuronBooster",
+  "authors": [
+    "f3r",
+    "harrychenca"
+  ],
+  "description": "Assessment tool to improve your coding skills",
+  "main": "app.js",
+  "keywords": [
+    "wdi",
+    "ga"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
