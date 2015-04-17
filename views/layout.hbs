@@ -2,9 +2,21 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    {{#each bowerScriptsCSS}}
+      <link rel="stylesheet" href="{{href}}" />
+    {{/each}}
   </head>
   <body>
     {{{body}}}
+
+    {{#each bowerScriptsJS}}
+      <script type="text/javascript" src="{{src}}"></script>
+    {{/each}}
+
+    {{#each appJS}}
+      <script type="text/javascript" src="{{src}}"></script>
+    {{/each}}
   </body>
 </html>

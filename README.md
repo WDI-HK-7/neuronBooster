@@ -14,3 +14,10 @@ $ npm install
 $ DEBUG=myapp ./bin/www
 $ open -a "Google Chrome" http://localhost:3000
 ```
+
+### Useful References
+- [Mustache](https://mustache.github.io/)
+- [Handlebars](http://handlebarsjs.com/)
+- [ExpressJS](http://expressjs.com/)
+- [Bower][http://bower.io/]
+- [CodeMirror](http://codemirror.net/)
